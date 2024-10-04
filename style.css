@@ -4,33 +4,68 @@ body {
 }
 
 header {
-	background-color:grey
+	background-color:grey;
+	border: 0.1em solid black;
 
+}
+
+.huvudmeny ul li a{
+	color: solid black;
+	text-decoration: none;
+	
 }
 
 .huvudmeny {
-  display: flex; /* Gör så att .huvudmeny blir en flexcontainer */
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .huvudmeny ul {
-  display: flex; /* Gör så att <ul> också blir en flexcontainer */
-  list-style-type: none; /* Tar bort punkterna */
-  padding: 0; /* Tar bort padding */
-  margin: 0; /* Tar bort marginal */
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	
 }
 
 .huvudmeny li {
-  padding: 24px; /* Lägger till padding för varje listobjekt */
-  margin: 0 12px; /* Lägger till mellanrum mellan listobjekten */
+	padding: 24px;
+	margin: 0 12px;
 }
 
-h1 {
+.onlyh1 {
 	text-align: center;
+	text-decoration: underline;
+	margin-top: 2em;
 }
 
-p {
-color:solid black;
-font-family: 'Courier New', Courier, monospace;
-font-weight: 200;
+.welcome {
+	color:solid black;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 200;
+	max-width: 30em;
+	margin-left: 2em;
+	margin-top: 6em;
+
+}
+
+.welcome p {
+	color:solid black;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 200;
+	max-width: 30em;
+	margin: 24px;
+}
+
+.welcome h3 {
+
+}
+
+.welcome img {
+	max-width: 15em;
+}
+
+footer {
+	background-color:grey;
+	border: 0.1em solid black;
 }
