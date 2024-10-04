@@ -28,3 +28,9 @@ header {
 h1 {
 	text-align: center;
 }
+
+p {
+color:solid black;
+font-family: 'Courier New', Courier, monospace;
+font-weight: 200;
+}
