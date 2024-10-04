@@ -1,0 +1,30 @@
+body {
+	background-color:blanchedalmond;
+	margin: 0;
+}
+
+header {
+	background-color:grey
+
+}
+
+.huvudmeny {
+  display: flex; /* Gör så att .huvudmeny blir en flexcontainer */
+  justify-content: center;
+}
+
+.huvudmeny ul {
+  display: flex; /* Gör så att <ul> också blir en flexcontainer */
+  list-style-type: none; /* Tar bort punkterna */
+  padding: 0; /* Tar bort padding */
+  margin: 0; /* Tar bort marginal */
+}
+
+.huvudmeny li {
+  padding: 24px; /* Lägger till padding för varje listobjekt */
+  margin: 0 12px; /* Lägger till mellanrum mellan listobjekten */
+}
+
+h1 {
+	text-align: center;
+}
