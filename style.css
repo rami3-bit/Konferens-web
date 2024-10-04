@@ -10,7 +10,7 @@ header {
 }
 
 .huvudmeny ul li a{
-	color: solid black;
+	color: black;
 	text-decoration: none;
 	
 }
@@ -65,7 +65,28 @@ header {
 	max-width: 15em;
 }
 
+/* footer */
+
 footer {
-	background-color:grey;
-	border: 0.1em solid black;
+    background-color: grey;
+    border: 0.1em solid black;
+    padding: 2em 0;
+    color: white;
 }
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.contact-info, .social-media {
+    max-width: 200px;
+}
+
+h4 {
+    margin-bottom: 0.5em;
+}
+
