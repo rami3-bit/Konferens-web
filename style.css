@@ -37,24 +37,29 @@ header {
 	text-align: center;
 	text-decoration: underline;
 	margin-top: 2em;
+
 }
 
 .welcome {
+	display: flex;
 	color:solid black;
-	font-family: 'Courier New', Courier, monospace;
-	font-weight: 200;
-	max-width: 30em;
-	margin-left: 2em;
-	margin-top: 6em;
+	
+	
+}
 
+.welcome div {
+	flex-direction: row;
+	padding: 5em;
+	
 }
 
 .welcome p {
 	color:solid black;
 	font-family: 'Courier New', Courier, monospace;
-	font-weight: 200;
+	font-weight: 200px;
 	max-width: 30em;
 	margin: 24px;
+	font-size: 18px;
 }
 
 .welcome h3 {
@@ -62,7 +67,7 @@ header {
 }
 
 .welcome img {
-	max-width: 15em;
+	
 }
 
 /* footer */
