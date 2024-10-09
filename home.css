@@ -2,6 +2,8 @@ body {
 	background-color:blanchedalmond;
 	margin: 0;
 
+	
+
 /* Article 1*/
 
 header {
@@ -58,13 +60,13 @@ H1 {
 
 .welcome p {
 	color:solid black;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'Montserrat', Courier, monospace;
 	font-weight: 50rem;
 	max-width: 30em;
 	font-size: 1em;
 }
 
-.welcome h3 {
+.welcome h2 {
 font-size: 2em;
 text-decoration: underline;
 }
