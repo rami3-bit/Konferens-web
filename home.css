@@ -1,10 +1,11 @@
 body {
 	background-color:blanchedalmond;
 	margin: 0;
-}
+
+/* Article 1*/
 
 header {
-	background-color:grey;
+	background-color: lightslategray;
 	border: 0.1em solid black;
 
 }
@@ -29,62 +30,69 @@ header {
 }
 
 .huvudmeny li {
-	padding: 24px;
-	margin: 0 12px;
+	padding: 2rem;
+	margin: 0 2rem;
+	font-size: 3rem;
 }
 
-.onlyh1 {
+H1 {
+	font-size: 3rem;
 	text-align: center;
-	text-decoration: underline;
-	margin-top: 2em;
+	margin-top: 0.5em;
 
 }
 
 .welcome {
 	display: flex;
-	color:solid black;
+	color: solid black;
 	
 	
 }
 
 .welcome div {
 	flex-direction: row;
-	padding: 5em;
+	padding: 2rem;
+	
 	
 }
 
 .welcome p {
 	color:solid black;
 	font-family: 'Courier New', Courier, monospace;
-	font-weight: 200px;
+	font-weight: 50rem;
 	max-width: 30em;
-	margin: 24px;
-	font-size: 18px;
+	font-size: 1em;
 }
 
 .welcome h3 {
-
+font-size: 2em;
+text-decoration: underline;
 }
 
 .welcome img {
+	border: 0.2em solid black;
 	
 }
+
+/*Article 2*/
+
+
 
 /* footer */
 
 footer {
-    background-color: grey;
+    background-color: lightslategray;
     border: 0.1em solid black;
-    padding: 2em 0;
-    color: white;
+    padding: 0.1em 0;
+    color: black;
+	margin-top: 3rem;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-around;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 0 2em;
 }
 
 .contact-info, .social-media {
@@ -94,6 +102,8 @@ footer {
 h4 {
     margin-bottom: 0.5em;
 }
+
+
 
 /* responsiva inställningar */
 
@@ -141,7 +151,7 @@ h4 {
 	.welcome .box1 {
 		order: 2;
 	}
-	.welcome .box2 {
+	.welcome .box2 {	
 		order: 1;
 	}
 	.welcome p {
