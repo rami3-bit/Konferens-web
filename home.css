@@ -61,14 +61,14 @@ H1 {
 .welcome p {
 	color:solid black;
 	font-family: 'Montserrat', Courier, monospace;
-	font-weight: 50rem;
+	font-weight:500;
 	max-width: 30em;
 	font-size: 1em;
 }
 
 .welcome h2 {
 font-size: 2em;
-text-decoration: underline;
+
 }
 
 .welcome img {
@@ -87,7 +87,13 @@ footer {
     border: 0.1em solid black;
     padding: 0.1em 0;
     color: black;
-	margin-top: 3rem;
+	margin-top: 4rem;
+}
+
+.logo {
+	width: 100px;
+	margin-left: 0;
+	margin-right: 24px;
 }
 
 .footer-content {
