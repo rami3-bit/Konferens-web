@@ -5,7 +5,7 @@ body {
 
 	
 
-/* Article 1*/
+/* Section */
 
 header {
 	background-color: lightslategray;
@@ -46,6 +46,7 @@ H1 {
 
 }
 
+/*Article*/
 .welcome {
 	display: flex;
 	color: solid black;
@@ -77,10 +78,6 @@ font-size: 2em;
 	border: 0.2em solid black;
 	
 }
-
-/*Article 2*/
-
-
 
 /* footer */
 
