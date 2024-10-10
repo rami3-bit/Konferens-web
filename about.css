@@ -1,3 +1,6 @@
+
+
+
 /* footer */
 
 footer {
@@ -27,4 +30,36 @@ footer {
 
 h4 {
     margin-bottom: 0.5em;
+}
+
+/* Header */
+
+header {
+	background-color: lightslategray;
+	border: 0.1em solid black;
+}
+
+.huvudmeny ul li a{
+	color: black;
+	text-decoration: none;
+	
+}
+
+.huvudmeny {
+	display: flex;
+	justify-content: center;
+}
+
+.huvudmeny ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.huvudmeny li {
+	padding: 2rem;
+	margin: 0 2rem;
+	font-size: 3rem;
+	text-shadow: 2px 2px 5px grey;
 }

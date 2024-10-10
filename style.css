@@ -5,12 +5,11 @@ body {
 
 	
 
-/* Section */
+/* Header */
 
 header {
 	background-color: lightslategray;
 	border: 0.1em solid black;
-
 }
 
 .huvudmeny ul li a{
@@ -29,7 +28,6 @@ header {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	
 }
 
 .huvudmeny li {
@@ -39,6 +37,8 @@ header {
 	text-shadow: 2px 2px 5px grey;
 }
 
+/*Main*/
+
 H1 {
 	font-size: 3rem;
 	text-align: center;
@@ -46,7 +46,7 @@ H1 {
 
 }
 
-/*Article*/
+
 .welcome {
 	display: flex;
 	color: solid black;
@@ -86,7 +86,8 @@ footer {
     border: 0.1em solid black;
     padding: 0.1em 0;
     color: black;
-	margin-top: 4rem;
+	margin: 3.4rem 0 0;
+	
 }
 
 .logo {
