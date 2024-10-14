@@ -44,69 +44,90 @@
 
 						<label>
 							<input type="checkbox" name="days" value="day1"> 
-							18/10 - dag 1
+							18/10 <strong> - dag 1</strong> 
 						</label>
 
 						<label>
-							<input type="checkbox" name="days" value="day2"> 19/10 - Dag 2
+							<input type="checkbox" name="days" value="day2"> 19/10 - <strong>dag 2</strong>
 						</label>
 
 						<label>
-							<input type="checkbox" name="days" value="day3"> 20/10 - Dag 3
+							<input type="checkbox" name="days" value="day3"> 20/10 - <strong>dag 3</strong>
 						</label>
 
-					</fieldset>
-
-					<fieldset>
+						
 						<legend>Seminarier</legend>
-
             <strong>Dag 1 - 18 oktober:</strong><br>
             <label>
                 <input type="checkbox" name="seminars" value="Introduktion till Frontend 2024">
                 Introduktion till Frontend 2024 - En översikt av de senaste verktygen och teknikerna.
             </label><br>
+
             <label>
                 <input type="checkbox" name="seminars" value="Bygg Responsiva Webbapplikationer">
                 Bygg Responsiva Webbapplikationer - Lär dig hur du skapar webbplatser som fungerar på alla enheter.
             </label><br>
+
 
             <strong>Dag 2 - 19 oktober:</strong><br>
             <label>
                 <input type="checkbox" name="seminars" value="Javascript - Från Grundläggande till Avancerat">
                 Javascript - Från Grundläggande till Avancerat - En djupdykning i språket och dess möjligheter.
             </label><br>
+
             <label>
                 <input type="checkbox" name="seminars" value="CSS Tricks för Modern Design">
                 CSS Tricks för Modern Design - Lär dig avancerade CSS-tekniker för en modern design.
             </label><br>
+
             <label>
                 <input type="checkbox" name="seminars" value="Effektiv Användning av Ramverk">
                 Effektiv Användning av Ramverk - Jämförelse av populära ramverk och hur du väljer rätt för ditt projekt.
             </label><br>
+
 
             <strong>Dag 3 - 20 oktober:</strong><br>
             <label>
                 <input type="checkbox" name="seminars" value="Nätverka med Branschledare">
                 Nätverka med Branschledare - Skapa kontakter och lär dig av de bästa i branschen.
             </label><br>
+
             <label>
                 <input type="checkbox" name="seminars" value="UI/UX Designprinciper">
                 UI/UX Designprinciper - Förstå grunderna i användarupplevelse och design.
             </label><br>
+
             <label>
                 <input type="checkbox" name="seminars" value="Tillgänglighet i Webbutveckling">
                 Tillgänglighet i Webbutveckling - Lär dig skapa tillgängliga webbplatser för alla användare.
             </label><br>
+
             <label>
                 <input type="checkbox" name="seminars" value="Framtidens Webbutveckling">
                 Framtidens Webbutveckling - Vad är nästa steg inom webbutveckling?
             </label><br>
+
             <label>
                 <input type="checkbox" name="seminars" value="Hållbara Utvecklingsmetoder">
                 Hållbara Utvecklingsmetoder - Implementera hållbarhet i dina utvecklingsprocesser.
             </label><br>
         </fieldset>
 
+
+		<fieldset>
+		
+		<legend>Mataltenativ</legend>
+			<input type="radio" name="meal" value="kött" required> Kött
+
+			<input type="radio" name="meal" value="Vegetariskt" required> Vegetariskt
+
+			<input type="radio" name="meal" value="fisk" required> Fisk
+
+			<input type="radio" name="meal" value="inget" required> Inget
+	
+		</fieldset>
+
+		<input type="submit" value="skicka anmälan">
 				</form>
 			
 		</article>
