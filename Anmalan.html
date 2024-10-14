@@ -3,8 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Konferens</title>
-		<link rel="stylesheet" href="style.css">
+		<title>B-W-K</title>
+		<link rel="stylesheet" href="about.css">
+	<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -20,20 +24,91 @@
 		</header>
 		
 		<article>
-			<div class="form">
+				<h2>Anmälan till konferens</h2>
 				<form action="#">
-					<h2>Anmälan till konferens</h2>
-						<br><label for="fname"> Namn </label>
-						<input type="text" id="username"></br>
-						<br><label for="age"> Ålder </label>
-						<input type="text" id="age"></br>
-						<br><label for="email"> Mail </label>
-						<input type="text" id="mail"></br>
+					<fieldset>
+						<legend>Personliga uppgifter</legend>
 
-					<h3></h3>
-					
+						<label for="name"> Namn: </label>
+						<input type="text" id="name" required>
+
+						<label for="adres"> Address </label>
+						<input type="text" id="address" required>
+
+						<label for="email"> E-postadress </label>
+						<input type="text" id="email">
+					</fieldset>
+
+					<fieldset>
+						<legend>Välj dagar</legend>
+
+						<label>
+							<input type="checkbox" name="days" value="day1"> 
+							18/10 - dag 1
+						</label>
+
+						<label>
+							<input type="checkbox" name="days" value="day2"> 19/10 - Dag 2
+						</label>
+
+						<label>
+							<input type="checkbox" name="days" value="day3"> 20/10 - Dag 3
+						</label>
+
+					</fieldset>
+
+					<fieldset>
+						<legend>Seminarier</legend>
+
+            <strong>Dag 1 - 18 oktober:</strong><br>
+            <label>
+                <input type="checkbox" name="seminars" value="Introduktion till Frontend 2024">
+                Introduktion till Frontend 2024 - En översikt av de senaste verktygen och teknikerna.
+            </label><br>
+            <label>
+                <input type="checkbox" name="seminars" value="Bygg Responsiva Webbapplikationer">
+                Bygg Responsiva Webbapplikationer - Lär dig hur du skapar webbplatser som fungerar på alla enheter.
+            </label><br>
+
+            <strong>Dag 2 - 19 oktober:</strong><br>
+            <label>
+                <input type="checkbox" name="seminars" value="Javascript - Från Grundläggande till Avancerat">
+                Javascript - Från Grundläggande till Avancerat - En djupdykning i språket och dess möjligheter.
+            </label><br>
+            <label>
+                <input type="checkbox" name="seminars" value="CSS Tricks för Modern Design">
+                CSS Tricks för Modern Design - Lär dig avancerade CSS-tekniker för en modern design.
+            </label><br>
+            <label>
+                <input type="checkbox" name="seminars" value="Effektiv Användning av Ramverk">
+                Effektiv Användning av Ramverk - Jämförelse av populära ramverk och hur du väljer rätt för ditt projekt.
+            </label><br>
+
+            <strong>Dag 3 - 20 oktober:</strong><br>
+            <label>
+                <input type="checkbox" name="seminars" value="Nätverka med Branschledare">
+                Nätverka med Branschledare - Skapa kontakter och lär dig av de bästa i branschen.
+            </label><br>
+            <label>
+                <input type="checkbox" name="seminars" value="UI/UX Designprinciper">
+                UI/UX Designprinciper - Förstå grunderna i användarupplevelse och design.
+            </label><br>
+            <label>
+                <input type="checkbox" name="seminars" value="Tillgänglighet i Webbutveckling">
+                Tillgänglighet i Webbutveckling - Lär dig skapa tillgängliga webbplatser för alla användare.
+            </label><br>
+            <label>
+                <input type="checkbox" name="seminars" value="Framtidens Webbutveckling">
+                Framtidens Webbutveckling - Vad är nästa steg inom webbutveckling?
+            </label><br>
+            <label>
+                <input type="checkbox" name="seminars" value="Hållbara Utvecklingsmetoder">
+                Hållbara Utvecklingsmetoder - Implementera hållbarhet i dina utvecklingsprocesser.
+            </label><br>
+        </fieldset>
+
 				</form>
-			</div>
+			
 		</article>
 		
 		<footer>

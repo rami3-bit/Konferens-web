@@ -4,6 +4,15 @@ body {
 	font-family: 'Montserrat', Courier, monospace;
 }
 
+/*Form*/
+
+form {
+	display: block;
+}
+label, input {
+	display: block;
+}
+
 /* footer */
 
 footer {
