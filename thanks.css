@@ -1,0 +1,19 @@
+body {
+	background-color:blanchedalmond;
+	margin: 0;
+	font-family: 'Montserrat', Courier, monospace;
+}
+
+img {
+	position: fixed;
+	width: 60%;
+	margin-left: 25rem;
+	margin-top: 5rem;
+}
+
+.tack-rubrik  {
+	position: fixed;
+	background-color: grey;
+	padding: 2rem;
+	width: 10rem;
+}
