@@ -34,7 +34,6 @@ h1 {
 
 .welcome p {
 	color:solid black;
-	font-family: 'Montserrat', Courier, monospace;
 	font-weight:500;
 	max-width: 30em;
 	font-size: 1em;
@@ -57,38 +56,6 @@ text-decoration: underline;
 	border-radius: 12px;
 	
 
-}
-
-/* footer */
-
-footer {
-    background-color: lightslategray;
-    border: 0.1em solid black;
-    padding: 0.1em 0;
-    color: black;
-	
-	
-}
-
-.logo {
-	width: 100px;
-	margin-left: 0;
-	margin-right: 24px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.contact-info, .social-media {
-    max-width: 200px;
-}
-
-h4 {
-    margin-bottom: 0.5em;
 }
 
 
