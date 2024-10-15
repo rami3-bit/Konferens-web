@@ -4,17 +4,51 @@ body {
 	font-family: 'Montserrat', Courier, monospace;
 }
 
-.about p, h2 {
-	width: 40%;
-	
-}
-.about {
+.container {
+	display: flex;
 	background-color: rgba(255, 255, 255, 0.5);
-	width: 50%;
-	padding:1rem;
-	border: 0.2rem solid black;
-	margin: 1rem;
-	margin-left: 2rem;
+	margin: 4rem;
+	border-radius: 0.5em;
+	border: 2px solid black;
+}
+
+.container .participants  {
+	flex-direction: column;
+}
+
+.container p {
+	background-color:blanchedalmond;
+	width: 40%;
+	border-radius: 0.5em;
+	padding: 0.5rem;
+	border: 2px solid black;
+}
+
+.container h2 {
+	text-decoration: underline;
+	margin-bottom: 5rem;
+}
+
+.about {
+	margin: 3rem;
+
+}
+
+.participants {
+	margin: 3rem;
+	margin-right: 38rem;
+}
+
+.participant p {
+	border: 2px solid black;
+	border-radius: 0.5em;
+	width:100%;
+	padding: 0.5rem;
+	background-color:blanchedalmond;
+}
+
+.participants img {
+	border: 0.1rem solid black;
 }
 
 /* footer */
@@ -34,7 +68,7 @@ footer {
 }
 
 .footer-content {
-    display: flex;
+	display: flex;
     justify-content: space-around;
     max-width: 800px;
     margin: 0 auto;
@@ -48,72 +82,10 @@ h4 {
     margin-bottom: 0.5em;
 }
 
-/* Header */
-
-header {
-	background-color: lightslategray;
-	border: 0.1em solid black;
-}
-
-.huvudmeny ul li a{
-	color: black;
-	text-decoration: none;
-	
-}
-
-.huvudmeny {
-	display: flex;
-	justify-content: center;
-}
-
-.huvudmeny ul {
-	display: flex;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-.huvudmeny li {
-	padding: 2rem;
-	margin: 0 2rem;
-	font-size: 3rem;
-	text-shadow: 2px 2px 5px grey;
-}
 
 /* responsiva inställningar */
 
-@media (max-width: 1024px) {
-    .welcome {
-		display: flex;
-		flex-direction: column;
-		margin: 1rem;
-  	}
-	
-	 img {
-		width: 99%;
-		height: auto;
-		border: 0;
-		
-	}
-	.welcome h3 {
-		text-align: center;
-		font-size: 5em;
-	}
-	.welcome .box1 {
-		order: 2;
-	}
-	.welcome .box2 {
-		order: 1;
-	}
-	.welcome p {
-		font-size: 1em;
-		
-	}
-	.welcome div {
-		padding: 2px;
-	}
-	
-}
+
 
 @media (max-width: 460px) {
     .welcome {
