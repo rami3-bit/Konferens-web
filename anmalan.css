@@ -33,5 +33,5 @@ input:valid {
 
 .choose-days {
 	display: flex;
-	flex,direction: row;
+	flex-direction: row;
 }
