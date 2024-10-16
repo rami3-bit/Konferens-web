@@ -2,6 +2,7 @@ body {
 	background-color:blanchedalmond;
 	margin: 0;
 	font-family: 'Montserrat', Courier, monospace;
+	width: 100%;
 }
 
 .container {
@@ -24,7 +25,7 @@ body {
 	border: 2px solid black;
 }
 
-.container h2 {
+.container h1 {
 	text-decoration: underline;
 	margin-bottom: 5rem;
 }
@@ -34,9 +35,14 @@ body {
 
 }
 
+.about p {
+	margin-top: 2rem;
+}
+
 .participants {
 	margin: 3rem;
 	margin-right: 38rem;
+	margin-top: 2rem;
 }
 
 .participant p {
@@ -49,4 +55,14 @@ body {
 
 .participants img {
 	border: 0.1rem solid black;
+}
+
+.participants p {
+	margin-top: 2rem;
+}
+
+.participants h2 {
+	text-decoration: underline;
+	margin-bottom: 5rem;
+	margin-top: 2rem;
 }

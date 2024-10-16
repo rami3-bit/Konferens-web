@@ -6,9 +6,32 @@ body {
 
 /*Form*/
 
+article {
+	padding: 2rem;
+	width: 25rem;
+}
+
 form {
 	display: block;
 }
 label, input {
 	display: block;
+}
+
+input:invalid {
+	border: 2px solid red;
+}
+
+input:valid {
+	border: 2px solid green;
+}
+
+.mataltenativ, .radio  {
+	display: flex;
+	flex-direction: row;
+}
+
+.choose-days {
+	display: flex;
+	flex,direction: row;
 }
