@@ -8,7 +8,7 @@ body {
 .container {
 	display: flex;
 	background-color: rgba(255, 255, 255, 0.5);
-	margin: 4rem;
+	margin: 2rem;
 	border-radius: 0.5em;
 	border: 2px solid black;
 }
@@ -65,4 +65,24 @@ body {
 	text-decoration: underline;
 	margin-bottom: 5rem;
 	margin-top: 2rem;
+}
+
+@media (max-width:684px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+	.about p  {
+		width: 100%
+
+	}
+
+	.participants {
+		width: 70%
+	}
+	.participant img {
+		width: 30%
+	}
+
+
 }
