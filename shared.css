@@ -1,10 +1,7 @@
 :root {
     --primary-bg-color: lightslategray;
-    --primary-border-color: blanchedalmond;
-    --menu-link-color: solid black;
-    --footer-text-color: black;
-    --social-link-color: solid black;
-    --social-link-hover-color: darkgreen;
+    --primary-border-color: black;
+	--social-link-color: darkblue;
 }
 
 header {
