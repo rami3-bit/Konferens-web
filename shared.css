@@ -186,11 +186,13 @@ h4 {
 	}
 }
 
-@media (min-width: 392px) {
+@media (max-width: 456px) {
 	.huvudmeny li {
-		font-size: 4rem;;
+		font-size: 1rem;
 	}
 }
+
+
 
 
 

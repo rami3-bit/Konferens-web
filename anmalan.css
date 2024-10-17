@@ -16,18 +16,23 @@ article {
 }
 
 form {
-	display: block;
+	display: flex;
+	flex-direction: column;
 }
 label, input {
 	display: block;
+	padding: 2px;
+	width:;
 }
+
+
 
 input:invalid {
 	border: 2px solid red;
 }
 
 input:valid {
-	border: 2px solid green;
+	border: 2px solid darkblue;
 }
 
 .mataltenativ, .radio  {
