@@ -178,10 +178,28 @@ h4 {
 		margin: 2px;
 		padding: 2px;
 	}
+
+	.footer-content {
+		display: block;
+		margin-left: 3rem;
+	}
+
+	.footer-content p {
+		font-size:  15px;
+		font
+
+		
+	}
+
+
 }
 
 @media (min-width: 392px) {
 	.huvudmeny li {
-		font-size: 2rem;;
+		font-size: 4rem;;
 	}
 }
+
+
+
+

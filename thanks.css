@@ -1,5 +1,5 @@
 body {
-	background-color:blanchedalmond;
+	background-color: blanchedalmond;
 	margin: 0;
 	font-family: 'Montserrat', Courier, monospace;
 }
@@ -9,6 +9,7 @@ img {
 	width: 60%;
 	margin-left: 25rem;
 	margin-top: 5rem;
+	z-index: 1; /* Lägre värde gör att bilden hamnar under texten */
 }
 
 .tack-rubrik  {
@@ -16,4 +17,8 @@ img {
 	background-color: grey;
 	padding: 2rem;
 	width: 10rem;
+	z-index: 2; /* Högre värde gör att texten hamnar ovanpå bilden */
+	color: white; /* Gör texten mer synlig */
+	top: 8rem; /* Justera positionen så att den ligger över bilden */
+	left: 30rem; /* Anpassa efter bildens position */
 }
