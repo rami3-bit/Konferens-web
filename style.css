@@ -19,10 +19,8 @@ h1 {
 
 .welcome {
 	display: flex;
-	color: solid black;
+	color: black;
 	margin:2.7rem;
-	
-	
 }
 
 .welcome div {
@@ -33,7 +31,7 @@ h1 {
 }
 
 .welcome p {
-	color:solid black;
+	color:black;
 	font-weight:500;
 	max-width: 30em;
 	font-size: 1em;
@@ -51,7 +49,7 @@ text-decoration: underline;
 }
 
 .welcome button {
-	color: solid black;
+	color: black;
 	background-color: whitesmoke;
 	border-radius: 12px;
 }
