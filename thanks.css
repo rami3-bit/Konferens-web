@@ -4,21 +4,62 @@ body {
 	font-family: 'Montserrat', Courier, monospace;
 }
 
-img {
-	position: fixed;
-	width: 60%;
-	margin-left: 25rem;
-	margin-top: 5rem;
-	z-index: 1; /* Lägre värde gör att bilden hamnar under texten */
+.tack-ruta img {
+	width: 80%;
+	height: auto;
 }
 
-.tack-rubrik  {
-	position: fixed;
+.tack-ruta  {
+	display: flex;
+	justify-content: space-around;
 	background-color: grey;
 	padding: 2rem;
-	width: 10rem;
-	z-index: 2; /* Högre värde gör att texten hamnar ovanpå bilden */
-	color: white; /* Gör texten mer synlig */
-	top: 8rem; /* Justera positionen så att den ligger över bilden */
-	left: 30rem; /* Anpassa efter bildens position */
+	margin-left: 30%;
+	margin-top: 15%;
+	width: 35rem;
+	height: auto;
+	
 }
+
+.tack-ruta div img {
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+@media (max-width: 1200px) {
+	.tack-ruta {
+	margin: 10rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.tack-ruta {
+	margin: 5rem;
+	}
+}
+
+@media (max-width: 770px) {
+	.tack-ruta {
+	margin: 2rem;
+	}
+}
+
+@media (max-width: 680px) {
+	.tack-ruta {
+		display: block;
+		flex-direction: column;
+		margin: 0.5rem;
+		width: auto;
+	}
+	.tack-ruta div{
+font-size: 12px;
+	}
+	.tack-ruta img {
+		width:100%;
+	}
+	.tack-meddelande {
+		
+		
+	}
+}
+
