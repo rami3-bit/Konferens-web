@@ -26,8 +26,10 @@ h1 {
 .welcome div {
 	flex-direction: row;
 	padding: 2rem;
-	
-	
+}
+
+.welcome, .box1, .box2 {
+	justify-content: center;
 }
 
 .welcome p {

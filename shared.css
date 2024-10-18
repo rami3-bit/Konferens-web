@@ -113,7 +113,7 @@ h4 {
 	
 }
 
-@media (max-width: 392px) { /* mindre skärmar*/
+@media (max-width: 506px) { /* mindre skärmar*/
     .welcome {
 		display: flex;
 		flex-direction: column;
@@ -122,9 +122,9 @@ h4 {
 	img {
 		width: 98%;
 	}
-	.huvudmeny li {
-		font-size: 12px;
-		padding: 2px;
+	.huvudmeny ul li {
+		font-size: 2rem;
+		padding: 4px;
 		margin: 0px;
 		text-decoration: underline; /*Indikation på att det är en mindre skärm*/
 	}
@@ -142,7 +142,7 @@ h4 {
 	.welcome {
 		display: flex;
 		flex-direction: column;
-		margin: 1rem;
+		margin: 2.5rem;
   	}
 	
 	 img {
@@ -168,8 +168,8 @@ h4 {
 	}
 		
 	.huvudmeny li {
-		font-size: 1rem;
-		padding:14px;
+		font-size: 2.5rem;
+		padding:8px;
 		margin:0;
 	}
 
@@ -191,6 +191,19 @@ h4 {
 @media (max-width: 456px) {
 	.huvudmeny li {
 		font-size: 1rem;
+	}
+}
+
+@media (max-width: 456px) {
+	.huvudmeny ul li {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 310px) {
+	.huvudmeny ul li {
+		font-size: 1rem;
+		padding: 8px;
 	}
 }
 
