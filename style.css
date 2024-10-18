@@ -48,28 +48,26 @@ text-decoration: underline;
 	
 }
 
-.welcome button {
-	color: black;
-	background-color: whitesmoke;
-	border-radius: 12px;
-}
+
 
 .button:hover {
-	background-color: darkblue;
+	background-color: blanchedalmond;
 	width: 5rem;
 	height: 5rem;
-	color: white;
-	text-decoration: none;
-	padding: 0.5rem;
-	border-radius: 1rem;
-}
-
-.button {
-	background-color: darkblue;
-	width: 5rem;
-	height: 5rem;
-	color: white;
+	color: black;
 	text-decoration: none;
 	padding: 0.5rem;
 	border-radius: 0.9rem;
+}
+
+.button {
+	background-color: aqua;
+	border: 1px solid black;
+	width: 5rem;
+	height: 5rem;
+	color: black;
+	text-decoration: none;
+	padding: 0.5rem;
+	border-radius: 0.9rem;
+	font-size: 30px;
 }
