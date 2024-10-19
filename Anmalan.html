@@ -28,8 +28,9 @@
 		<article>
 			<div class="personuppgifter">
 				<form action="thanks.html">
-					<h2>Anmälan till konferens</h2>
 					<fieldset>
+					<h2>Anmälan till konferens</h2>
+					
 						<legend>Personliga uppgifter</legend>
 
 						<label for="name"> Namn: </label>
@@ -126,14 +127,21 @@
 		<fieldset>
 		
 		<legend>Mataltenativ</legend>
-			<input type="radio" name="meal" value="kött" required> Kött
+			
+			<div>
+				<input type="radio" name="meal" value="kött" required> Kött
 
-			<input type="radio" name="meal" value="Vegetariskt" required> Vegetariskt
+				<input type="radio" name="meal" value="Vegetariskt" required> Vegetariskt
 
-			<input type="radio" name="meal" value="fisk" required> Fisk
+				<input type="radio" name="meal" value="fisk" required> Fisk
 
-			<input type="radio" name="meal" value="inget" required> Inget
-	
+				<input type="radio" name="meal" value="inget" required> Inget
+			</div>
+
+			<div class="allergier">
+				<input type="text" name="allergier" value="allergier" required> Allergier
+			</div>
+
 		</fieldset>
 	</div>
 
