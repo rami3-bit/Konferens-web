@@ -9,11 +9,11 @@ body {
 
 
 	.article {
-		display: flex;
+	display: flex;
 	margin: 5rem;
 	background-color: rgba(255, 255, 255, 0.5);
 	padding: 2rem;
-	width: auto;
+	width: 62rem;
 	padding: 5rem;
 	border: 1px solid black;
 	border-radius: 12px;
@@ -33,10 +33,9 @@ fieldset {
 	width: 60rem;
 }
 
-.allergier {
-	width:auto;
-	height: auto;
-}
+
+
+
 
 legend {
     font-weight: bold; 
@@ -61,6 +60,7 @@ form {
 input[type="checkbox"] {
 	width: 25px;
 	height: 25px;
+	margin: 8px;
 }
 
 
@@ -77,8 +77,8 @@ input:invalid {
   
   .submit input[type="submit"] {
 	padding: 10px 20px;        
-	background-color: #4CAF50; 
-	color: white;
+	background-color: aqua;
+	color: black;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
@@ -124,10 +124,10 @@ input:invalid {
 }
 
 @media (max-width: 949px) {
-	form {
+	.form {
 		width: 80%;
 	}
-	article {
+	.article {
 		width:80%;
 	}
 }
