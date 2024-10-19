@@ -6,23 +6,38 @@ body {
 
 /*Form*/
 
-article {
+
+
+	.article {
+		margin: 5rem;
 	background-color: rgba(255, 255, 255, 0.5);
 	padding: 2rem;
-	width: 50rem;
-	margin: 2em;
+	width: auto;
+	padding: 5rem;
 	border: 1px solid black;
 	border-radius: 12px;
+
 }
+
+
+
+.personuppgifter label, 
+.personuppgifter input {
+        display: block;
+        margin-bottom: 5px;
+    }
 
 form {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	
 }
-label, input {
-	display: block;
-	padding: 2px;
-	width:;
+
+input[type="checkbox"] {
+	width: 25px;
+	height: 25px;
+	
 }
 
 
@@ -31,9 +46,25 @@ input:invalid {
 	border: 2px solid red;
 }
 
-input:valid {
-	border: 2px solid darkblue;
-}
+.submit {
+	display: flex;              /* Gör div:en till en flex-container */
+	justify-content: center;    /* Centrera innehållet horisontellt */
+	margin-top: 20px;          /* Lägg till lite utrymme ovanför knappen */
+  }
+  
+  .submit input[type="submit"] {
+	padding: 10px 20px;        /* Lägg till padding för en bättre knappdesign */
+	background-color: #4CAF50; /* Grön bakgrundsfärg */
+	color: white;              /* Vit textfärg */
+	border: none;              /* Ingen kantlinje */
+	border-radius: 5px;       /* Rundade hörn */
+	cursor: pointer;           /* Ändra muspekaren till en pekare */
+  }
+  
+  .submit input[type="submit"]:hover {
+	background-color: #45a049; /* Ändra bakgrundsfärgen vid hovring */
+  }
+  
 
 .mataltenativ, .radio  {
 	display: flex;

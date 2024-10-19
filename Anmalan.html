@@ -24,9 +24,11 @@
 			</nav>
 		</header>
 
+	<div class="article">
 		<article>
-				<h2>Anmälan till konferens</h2>
+			<div class="personuppgifter">
 				<form action="thanks.html">
+					<h2>Anmälan till konferens</h2>
 					<fieldset>
 						<legend>Personliga uppgifter</legend>
 
@@ -39,12 +41,14 @@
 						<label for="email"> E-postadress </label>
 						<input type="text" id="email" required>
 					</fieldset>
+				</div>
 
-					<fieldset class="choose-days">
+				<div class="choose-days">
+					<fieldset>
 						<legend>Välj dagar</legend>
 
 						<label>
-							<input type="checkbox" name="days" value="day1"><strong> dag 1</strong> 18/10 -
+							<input type="checkbox" name="days" value="day1"><strong>dag 1</strong> 19/10 - 
 						</label>
 
 						<label>
@@ -55,14 +59,17 @@
 							<input type="checkbox" name="days" value="day3"><strong>dag 3</strong> 20/10 - 
 						</label>
 					</fieldset>
+				</div>
 
-				<fieldset class="seminarier">		
-						<legend>Seminarier</legend>
-            <strong>Dag 1 - 18 oktober:</strong><br>
-            <label>
+			<div class="seminarier">
+				<fieldset>		
+					
+					<legend>Seminarier</legend>
+			<label>
+            	<strong>Dag 1 - 18 oktober:</strong><br>
                 <input type="checkbox" name="seminars" value="Introduktion till Frontend 2024">
-                Introduktion till Frontend 2024 - En översikt av de senaste verktygen och teknikerna.
-            </label><br>
+                Introduktion till Frontend 2024 - En översikt av de senaste verktygen och teknikerna.<br>
+            </label>
 
             <label>
                 <input type="checkbox" name="seminars" value="Bygg Responsiva Webbapplikationer">
@@ -112,10 +119,11 @@
                 <input type="checkbox" name="seminars" value="Hållbara Utvecklingsmetoder">
                 Hållbara Utvecklingsmetoder - Implementera hållbarhet i dina utvecklingsprocesser.
             </label><br>
-        </fieldset>
+    	 </fieldset>
+		</div>
 
-
-		<fieldset class="mataltenativ">
+	<div class="mataltenativ">
+		<fieldset>
 		
 		<legend>Mataltenativ</legend>
 			<input type="radio" name="meal" value="kött" required> Kött
@@ -127,12 +135,20 @@
 			<input type="radio" name="meal" value="inget" required> Inget
 	
 		</fieldset>
+	</div>
 
+	<div class="submit">
+		
+			
 		<input type="submit" value="skicka anmälan">
-				</form>
+			
+		
+	</div>
+
+	</form>
 			
 		</article>
-		
+	</div>
 		<footer>
 			<div class="footer-content">
 				<div class="contact-info">
