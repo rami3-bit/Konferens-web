@@ -20,19 +20,17 @@ body {
 
 }
 
-.mataltenativ input {
-	display:flex;
-	flex-direction: row;
-	margin: 4px;
-}
+
 
 .mataltenativ div {
 	display: flex;
+	margin: 1rem;
 
 }
 
+
 fieldset {
-	width: 50rem;
+	width: 60rem;
 }
 
 .allergier {
@@ -63,7 +61,6 @@ form {
 input[type="checkbox"] {
 	width: 25px;
 	height: 25px;
-	
 }
 
 
@@ -90,17 +87,32 @@ input:invalid {
   .submit input[type="submit"]:hover {
 	background-color: #45a049;
   }
-  
 
-.mataltenativ, .radio  {
+  .allergier input[type="text"] {
+    width: 40%;
+	
+    font-size: 1.2em; 
+    border: 1px;
+    border-radius: 4px;
+   
+}
+
+
+.mataltenativ .radio  {
 	display: flex;
 	flex-direction: row;
+}
+
+.mataltenativ label {
+	margin: 8px;
 }
 
 .choose-days {
 	display: flex;
 	flex-direction: row;
 }
+
+
 
 @media (max-width: 600px) {
 	form {
