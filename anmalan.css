@@ -95,7 +95,7 @@ input:invalid {
 
     font-size: 1.2em; 
     border: 1px;
-    border-radius: 4px;
+    border-radius: 8px;
    
 }
 
@@ -106,7 +106,7 @@ input:invalid {
 }
 
 .mataltenativ label {
-	margin: 8px;
+	margin: 4px;
 }
 
 .choose-days {
@@ -139,9 +139,11 @@ input:invalid {
 			margin: 12px;
 	}
 	input[name="seminars"] label {
-
 		margin: 12px;
 	  }
+	  input[type="checkbox"] {
+		margin-top: 2rem;
+			}
 }
 
 @media (max-width: 470px) {
@@ -166,6 +168,13 @@ input:invalid {
 	  padding: 5px;
 	  width: auto; 
 	  height: auto;
+	}
+	.mataltenativ label {
+		margin-top: 4px;
+	}
+
+	input[type="checkbox"] {
+margin-top: 2rem;
 	}
   }
   
