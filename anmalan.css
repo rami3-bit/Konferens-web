@@ -116,52 +116,56 @@ input:invalid {
 
 
 
-@media (max-width: 600px) {
-	form {
-		width: 12px;
-	}
-	article {
-		width:20rem;
-	}
-}
 
-@media (max-width: 949px) {
-	.form {
-		width: 80%;
-	}
-	.article {
-		width:80%;
-	}
-}
-
-@media (max-width: 506px) {
-	form {
-		width:100%;
-		margin: 0;
-	}
-	article {
-		width:70%;
-		margin: 0;
-	}
-	.mataltenativ{
-		display: block;
-		width: 80%;
-		margin: 0;
-	}
-	 
-}
 
 @media (max-width: 1083px) {
 		
 	.article {
-		margin: 1;
-	
+			display: block;
+			width: 80%;
 	}
-
-	.seminarier input[name="seminars"] {
-
+	input[name="seminars"] label {
+		display: flex;
+		flex-direction: row;
 		margin: 12px;
-	} 
+	  }
 }
 
-	 
+@media (max-width: 765px) {
+		
+	.article {
+			display: block;
+			
+			margin: 12px;
+	}
+	input[name="seminars"] label {
+
+		margin: 12px;
+	  }
+}
+
+@media (max-width: 470px) {
+
+	.article {
+	  display: block;
+	  width: auto;
+	  margin: 12px;
+	}
+  
+	label[for="seminars"] {
+	  margin: 12px;
+	}
+  
+	.meal {
+	  display: flex;
+	  flex-direction: column;
+	}
+  
+	.allergier input[type="text"] {
+	  font-size: 16px;
+	  padding: 5px;
+	  width: auto; 
+	  height: auto;
+	}
+  }
+  
