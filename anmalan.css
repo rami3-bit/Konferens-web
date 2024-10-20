@@ -10,15 +10,16 @@ body {
 
 	.article {
 	display: flex;
-	margin: 5rem;
+	margin:3rem;
 	background-color: rgba(255, 255, 255, 0.5);
-	padding: 2rem;
-	width: 62rem;
-	padding: 5rem;
+	padding:2rem;
 	border: 1px solid black;
-	border-radius: 12px;
+	border-radius: 8px;
+	justify-content: center;
 
 }
+
+
 
 
 
@@ -30,7 +31,8 @@ body {
 
 
 fieldset {
-	width: 60rem;
+
+width: auto;
 }
 
 
@@ -90,7 +92,7 @@ input:invalid {
 
   .allergier input[type="text"] {
     width: 40%;
-	
+
     font-size: 1.2em; 
     border: 1px;
     border-radius: 4px;
@@ -148,3 +150,18 @@ input:invalid {
 	}
 	 
 }
+
+@media (max-width: 1083px) {
+		
+	.article {
+		margin: 1;
+	
+	}
+
+	.seminarier input[name="seminars"] {
+
+		margin: 12px;
+	} 
+}
+
+	 
